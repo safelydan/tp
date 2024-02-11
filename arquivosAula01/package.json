@@ -2,15 +2,13 @@
   "name": "carreira",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "npx parcel ./index.html & npx parcel/watch ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "parcel": "^2.11.0",
-    "prettier": "^3.2.5",
+  "dependencies": {
     "typescript": "^5.3.3"
   }
 }
